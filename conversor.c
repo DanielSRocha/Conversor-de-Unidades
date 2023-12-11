@@ -2,13 +2,13 @@
 
 float Fcelsius(float celsius) {
     float calculo = (celsius * 1.8) + 32;
-    printf("%2.f", calculo);
+    printf("%.2f", calculo);
     return calculo;
 }
 
 float Ffahrenheit(float fahrenheit) {
     float calculo = (fahrenheit - 32) / 1.8;
-    printf("%2.f", calculo);
+    printf("%.2f", calculo);
     return calculo;
 }
 

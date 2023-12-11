@@ -1,5 +1,5 @@
 float Ffahrenheit(float fahrenheit) {
     float calculo = (fahrenheit - 32) / 1.8;
-    printf("%2.f", calculo);
+    printf("%.2f", calculo);
     return calculo;
 }
