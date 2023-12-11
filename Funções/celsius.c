@@ -1,4 +1,4 @@
-float temperatura(int opção, float celsius) {
+float celsius(float celsius) {
     float calculo = (celsius * 1.8) + 32;
     printf("%2.f", calculo);
     return calculo;
